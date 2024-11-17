@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #5f6368;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 20px;
+}
+
+.header-links a {
+    color: #5f6368;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+.app-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 6px);
+    gap: 4px;
+    margin: 0 10px;
+}
+
+.dot {
+    width: 6px;
+    height: 6px;
+    background-color: #5f6368;
+    border-radius: 50%;
+}
+
+.profile-pic {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    text-align: right;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    width: 500px;
+    height: 40px;
+    border: 1px solid #dcdcdc;
+    border-radius: 20px;
+    padding: 0 50px;
+    font-size: 16px;
+}
+
+.icon {
+    position: absolute;
+    font-size: 16px;
+    color: #5f6368;
+}
+
+.search-icon {
+    left: 20px;
+}
+
+.mic-icon {
+    right: 60px;
+}
+
+.lens-icon {
+    right: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    margin: 0 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #5f6368;
+    background-color: #f8f9fa;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #e8e8e8;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #70757a;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-links span {
+    margin-bottom: 10px;
+}
+
+.links-group {
+    display: flex;
+    gap: 15px;
+}
+
+.links-group a {
+    color: #5f6368;
+    text-decoration: none;
+    font-size: 14px;
+}
